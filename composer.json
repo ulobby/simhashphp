@@ -21,5 +21,8 @@
         "psr-0": {
             "Tga\\SimHash": "lib"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }

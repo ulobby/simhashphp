@@ -65,6 +65,11 @@ class Fingerprint
         return $this->decimalValue;
     }
 
+    public function getInteger()
+    {
+        return (int)$this->decimalValue;
+    }
+
     /**
      * Get the binary value as a string
      *
@@ -72,7 +77,7 @@ class Fingerprint
      */
     public function getBinary()
     {
-        return str_pad(decbin($this->decimalValue), $this->size, '0', STR_PAD_LEFT);
+        return str_pad(decbin($this->getInteger()), $this->size, '0', STR_PAD_LEFT);
     }
 
     /**

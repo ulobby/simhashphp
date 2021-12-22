@@ -16,7 +16,7 @@ namespace Tga\SimHash\Extractor;
  *
  * @author Titouan Galopin <galopintitouan@gmail.com>
  */
-class SimpleTextExtractorTest extends \PHPUnit_Framework_TestCase
+class SimpleTextExtractorTest extends \PHPUnit\Framework\TestCase
 {
     public function testExtract()
     {

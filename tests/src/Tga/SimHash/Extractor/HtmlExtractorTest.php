@@ -16,7 +16,7 @@ namespace Tga\SimHash\Extractor;
  *
  * @author Titouan Galopin <galopintitouan@gmail.com>
  */
-class HtmlExtractorTest extends \PHPUnit_Framework_TestCase
+class HtmlExtractorTest extends \PHPUnit\Framework\TestCase
 {
     public function testExtract()
     {
